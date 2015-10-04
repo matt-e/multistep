@@ -165,7 +165,7 @@ func TestDebugPauseDefault(t *testing.T) {
 	case <-time.After(100 * time.Millisecond):
 	}
 
-	w.Write([]byte("\n\n"))
+	_, _ = w.Write([]byte("\n\n")) // ignore error
 
 	select {
 	case <-complete:

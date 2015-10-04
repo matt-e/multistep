@@ -1,5 +1,5 @@
-// multistep is a library for bulding up complex actions using individual,
-// discrete steps.
+// Package multistep is a library for bulding up complex actions using
+// individual, discrete steps.
 package multistep
 
 import (
