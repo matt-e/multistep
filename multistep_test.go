@@ -62,7 +62,7 @@ func (s TestStepSync) Cleanup(StateBag) {}
 
 func (s TestStepWaitForever) Run(context.Context, StateBag) StepAction {
 	select {}
-	return ActionContinue
+	// unreachable
 }
 
 func (s TestStepWaitForever) Cleanup(StateBag) {}
