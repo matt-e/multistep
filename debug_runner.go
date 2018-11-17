@@ -1,11 +1,10 @@
 package multistep
 
 import (
+	"context"
 	"fmt"
 	"reflect"
 	"sync"
-
-	"golang.org/x/net/context"
 )
 
 // DebugLocation is the location where the pause is occuring when debugging

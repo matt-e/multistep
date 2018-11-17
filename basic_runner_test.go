@@ -1,11 +1,10 @@
 package multistep
 
 import (
+	"context"
 	"reflect"
 	"testing"
 	"time"
-
-	"golang.org/x/net/context"
 )
 
 func TestBasicRunner_ImplRunner(t *testing.T) {

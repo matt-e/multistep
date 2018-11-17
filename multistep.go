@@ -3,7 +3,7 @@
 package multistep
 
 import (
-	"golang.org/x/net/context"
+	"context"
 )
 
 // A StepAction determines the next step to take regarding multi-step actions.
